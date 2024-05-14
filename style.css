@@ -90,11 +90,11 @@ section#hero{
       }
       #p1{
           color: #FFFFFF;
-          font-size: 15pt;
+          font-size: 10pt;
       }
       #p2{
           color: #FFFFFF;
-          font-size: 10pt;
+          font-size: 8pt;
           text-align: justify;
       }
       .btn_inscrever2 {
@@ -105,11 +105,15 @@ section#hero{
           position: absolute;
       }
       .imagem{
-          position: relative;
-      }
-      .img_principal{
-         
-      }
+        position: relative;
+    }
+    .imagem .img_principal{
+        width: 620px;
+  
+        margin-top: -40px;
+        position: absolute;
+       
+}
 }
 section .content{
    margin-top: 50px; 
